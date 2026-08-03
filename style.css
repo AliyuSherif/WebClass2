@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+    color: black;
+    font-family: josefin sans, noto serif, dm mono, bevan;
+    
+  }
+  header{
+    background-color: brown;
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+    
+    
+  }
+  nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    background-color: black;
+    padding: 7px;
+    border-radius: 5px;
+  }
+nav a:hover{
+    background-color: red;
+    transition: all 0.5s ease-in-out; 
+    
+  }
+
+  img{
+    border-radius: 100%;
+    border: 3px solid black;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+  }
+  
+p{
+  color: rgb(111, 33, 78);
+  font-size: 20px;
+  font-weight: thin;
+  padding: 10px;
+}
+h1{
+  color: rgb(111, 80, 33);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #ff54ff;
+}
+.bg-color{
+  background-color: linear-gradient(rgba(225, 225, 225, 0.5), rgba(68, 40, 40, 0.5), #ff54ff, hsla(0, 100%, 50%, 0.5));
+}
+.banner{
+  height: 350px;
+  background: linear-gradient(rgba(225, 225, 225, 0.5), rgba(68, 40, 40, 0.5), #ff54ff, hsla(0, 100%, 50%, 0.5));;
+}
+.about-banner{
+height: 400px;
+background: url(images/4761929fe3c22bc766a4f1cd3ba24844.png),linear-gradient(rgba(225, 225, 225, 0.5));
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="form.html">Form</a>
+        <a href="table.html">Table</a>
+        <a href="league.html">League Table</a>
+        </nav>
+    </header>
+    <h1>Registration Form</h1>
+<form method="post">
+
+  <p>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" placeholder="Enter your name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="eg.sherif@gmail.com"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+<label for="Number">Phone Number:</label>
+<input type="tel" id="Number" name="Number" placeholder="Enter your phone number" required><br><br>
+
+<label for="gender">Gender:</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><b></b>
+
+  </p>
+
+  <p>
+    <label for="dob" >Date of Birth:</label>
+<input type="date" id="dob" name="dob" required>  
+
+  </p>
+
+  <p>
+    <label for="country">Country:</label>
+<select id="country" name="country">        
+    <option value="Nigeria">Nigeria</option>
+    <option value="Ghana">Ghana</option>
+    <option value="Kenya">Kenya</option>
+    <option value="South Africa">South Africa</option>
+    <option value="United States">United States</option>
+    <option value="United Kingdom">United Kingdom</option>
+    <option value="Canada">Canada</option>
+    <option value="Australia">Australia</option>
+    <option value="India">India</option>
+    <option value="China">China</option>
+    <option value="Japan">Japan</option>
+    <option value="Brazil">Brazil</option>
+    <option value="Mexico">Mexico</option>
+    <option value="Russia">Russia</option>
+    <option value="France">France</option>
+    <option value="Germany">Germany</option>
+    <option value="Italy">Italy</option>
+    <option value="Spain">Spain</option><br><br>
+
+    <label for="cv" >Upload CV:</label>
+    <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx"><br><br>
+</p>
+  
+    
+<p>
+    <label for="bio">Bio:</label>
+    <textarea id="bio" name="bio" cols="30" rows="10"></textarea><br><br>
+</p>
+
+<p>
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color">
+</p>
+
+<p>
+    <label for="month"month>Month:</label>
+    <input type="month" id="month" name="month"/>
+</p>
+<p>
+    <label for="week">Week:</label>
+    <input type="week" id="week" name="week"/>   
+</p>
+<p>
+    <label for=""time>Time:</label>
+    <input type="time" id="time" name="time"/>  
+</p>
+<p>
+    <label for=""search>Search:</label> 
+    <input type="search" id="search" name="search"/> 
+</p>
+<p>
+    <label for=""number>Number:</label>
+    <input type="number" id="number" name="number"/>    
+</p>
+<p>
+    <label for="">Hobbies:</label>
+    <input type="checkbox" name="hobbies" id="reading"  value="reading"/>
+    <label for="reading">Reading</label>   
+    <input type="checkbox"  name="hobbies" id="traveling"  value="traveling"/>
+    <label for="traveling">Traveling</label>
+    <input type="checkbox" id="coding" name="hobbies" value="coding"/> 
+    <label for="coding">Coding</label>
+</p>
+
+<p>
+    <label for="agree">
+        <input type="checkbox" id="agree" name="agree" value="yes"/>
+        I agree to the terms and conditions
+    </label>
+</p>
+
+<p>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</p>
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
