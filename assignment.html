@@ -41,6 +41,7 @@
             width: 60%;
             border: 5px  solid red;
             position: relative;
+            
         }
     
         .box{
@@ -53,23 +54,55 @@
             background-color: red;
             position: absolute;
             top: 20px;
+              animation-name: myAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate; 
         }
+        @keyframes myAnimation {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
         .blue{
             position: absolute;
             background-color: blue;
             left: 150px;
             top: 20px;
-        
+        animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 
         }  
+        @keyframes myAnimation {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
          .green{
             position: absolute;
                 background-color: green;
                 left: 300px;
                  top: 20px;
-            
-
+                animation-name: myAnimation;
+                animation-direction: reverse;
+                animation-duration: 2s;
+                
           }
+              
+        @keyframes myAnimation {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
             .pink{
                 position: absolute;
                     background-color: pink;
@@ -218,6 +251,7 @@
                 
             }
            
+  
 
        
     </style>
