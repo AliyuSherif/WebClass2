@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container {
+  display: flex;
+  /* flex-direction: column-reverse; */
+  /* background-color: DodgerBlue; */
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.container .items {
+  background-color: tomato;
+  width: 330px;
+  
+  font-size: 30px;
+}
+header{
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+nav {
+    display: flex;
+    gap: 0 20px;
+    
+}
+.one{
+    order: 5;
+}
+.two{
+    order: 2;
+}
+.three{
+    order: 3;
+}
+.four{
+    order: 1;
+    flex: 5;
+}
+.five{
+    order: 3;
+}
+</style>
+<body>
+     <header>
+        <span >aliyu</span>
+        <nav>
+         <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="form.html">Form</a>
+        <a href="table.html">Table</a>
+        <a href="league.html">League Table</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="items one">1</div>
+        <div class="items two">2</div>
+        <div class="items three">3</div>
+        <div class="items four">4</div>
+        <div class="items five">5</div>
+    </div>
+
+</body>
+</html>
