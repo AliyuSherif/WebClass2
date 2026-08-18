@@ -59,6 +59,6 @@ h1{
   background: linear-gradient(rgba(225, 225, 225, 0.5), rgba(68, 40, 40, 0.5), #ff54ff, hsla(0, 100%, 50%, 0.5));;
 }
 .about-banner{
-
+height: 400px;
 background: url(images/4761929fe3c22bc766a4f1cd3ba24844.png),linear-gradient(rgba(225, 225, 225, 0.5));
 }
